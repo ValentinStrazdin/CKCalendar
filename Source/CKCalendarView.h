@@ -26,6 +26,14 @@
 
 @end
 
+@interface DateButton : UIButton
+
+@property (nonatomic, strong) NSDate *date;
+@property (nonatomic, strong) CKDateItem *dateItem;
+@property (nonatomic, strong) NSCalendar *calendar;
+
+@end
+
 typedef enum {
     startSunday = 1,
     startMonday = 2,
@@ -39,7 +47,10 @@ typedef enum {
 @property (nonatomic) CKCalendarStartDay calendarStartDay;
 @property (nonatomic, strong) NSLocale *locale;
 
+@property (nonatomic, strong) NSDate *monthShowing;
 @property (nonatomic, readonly) NSArray *datesShowing;
+
+@property(nonatomic, strong) NSMutableArray *dateButtons;
 
 @property (nonatomic) BOOL onlyShowCurrentMonth;
 @property (nonatomic) BOOL adaptHeightToNumberOfWeeksInMonth;
