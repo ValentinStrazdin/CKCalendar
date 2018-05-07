@@ -20,6 +20,8 @@
 		1D2391395A8710F3E85A8A /* left_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D2391395A8710F3E85A89 /* left_arrow@2x.png */; };
 		1D2391395A8710F3E85A8C /* right_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D2391395A8710F3E85A8B /* right_arrow.png */; };
 		1D2391395A8710F3E85A8E /* right_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D2391395A8710F3E85A8D /* right_arrow@2x.png */; };
+		819DF06220A106B200E851DB /* ClanOffcPro-NarrNews.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 819DF06020A106B200E851DB /* ClanOffcPro-NarrNews.ttf */; };
+		819DF06320A106B200E851DB /* ClanOffcPro-NarrMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 819DF06120A106B200E851DB /* ClanOffcPro-NarrMedium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		1D2391395A8710F3E85A89 /* left_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "left_arrow@2x.png"; path = "../../Source/resources/left_arrow@2x.png"; sourceTree = "<group>"; };
 		1D2391395A8710F3E85A8B /* right_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = right_arrow.png; path = ../../Source/resources/right_arrow.png; sourceTree = "<group>"; };
 		1D2391395A8710F3E85A8D /* right_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "right_arrow@2x.png"; path = "../../Source/resources/right_arrow@2x.png"; sourceTree = "<group>"; };
+		819DF06020A106B200E851DB /* ClanOffcPro-NarrNews.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClanOffcPro-NarrNews.ttf"; sourceTree = "<group>"; };
+		819DF06120A106B200E851DB /* ClanOffcPro-NarrMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClanOffcPro-NarrMedium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 				1D2391395A8710F3E85A64 /* CKAppDelegate.m */,
 				1D2391395A8710F3E85A63 /* CKAppDelegate.h */,
 				1D2391395A8710F3E85A5B /* Supporting Files */,
+				819DF05F20A106B200E851DB /* Fonts */,
 				1D2391395A8710F3E85A86 /* resources */,
 			);
 			path = Calendar;
@@ -122,6 +127,16 @@
 				1D2391395A8710F3E85A87 /* left_arrow.png */,
 			);
 			name = resources;
+			sourceTree = "<group>";
+		};
+		819DF05F20A106B200E851DB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				819DF06020A106B200E851DB /* ClanOffcPro-NarrNews.ttf */,
+				819DF06120A106B200E851DB /* ClanOffcPro-NarrMedium.ttf */,
+			);
+			name = Fonts;
+			path = ../../Source/Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,7 +191,9 @@
 			files = (
 				1D2391395A8710F3E85A5F /* InfoPlist.strings in Resources */,
 				1D2391395A8710F3E85A88 /* left_arrow.png in Resources */,
+				819DF06220A106B200E851DB /* ClanOffcPro-NarrNews.ttf in Resources */,
 				1D2391395A8710F3E85A8A /* left_arrow@2x.png in Resources */,
+				819DF06320A106B200E851DB /* ClanOffcPro-NarrMedium.ttf in Resources */,
 				1D2391395A8710F3E85A8C /* right_arrow.png in Resources */,
 				1D2391395A8710F3E85A8E /* right_arrow@2x.png in Resources */,
 			);

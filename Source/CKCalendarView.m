@@ -84,7 +84,7 @@
     self = [super init];
     if (self) {
         self.backgroundColor = UIColorFromRGB(0xF2F2F2);
-        self.selectedBackgroundColor = [UIColor colorWithRed:1.0 green:101.f/255.f blue:134.f/255.f alpha:1.f];  // UIColorFromRGB(0x88B6DB);
+        self.selectedBackgroundColor = UIColorFromRGB(0x016586);
         self.textColor = UIColorFromRGB(0x393B40);
         self.selectedTextColor = UIColorFromRGB(0xF2F2F2);
     }
@@ -136,11 +136,8 @@
     self.onlyShowCurrentMonth = YES;
     self.adaptHeightToNumberOfWeeksInMonth = YES;
 
-//    self.layer.cornerRadius = 6.0f;
-
     UIView *highlight = [[UIView alloc] initWithFrame:CGRectZero];
     highlight.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.2];
-//    highlight.layer.cornerRadius = 6.0f;
     [self addSubview:highlight];
     self.highlight = highlight;
 
@@ -408,14 +405,11 @@
     self.backgroundColor = UIColorFromRGB(0x393B40);
 
     [self setTitleColor:[UIColor whiteColor]];
-    [self setTitleFont:[UIFont fontWithName:@"ClanOffcPro-NarrMedium" size:17.f]]; //[UIFont boldSystemFontOfSize:17.0]];
-    
-
-    [self setDayOfWeekFont:[UIFont fontWithName:@"ClanOffcPro-NarrNews" size:12.f]]; //[UIFont boldSystemFontOfSize:12.0]];
+    [self setTitleFont:[UIFont fontWithName:@"ClanOffcPro-NarrMedium" size:17.f]];
+    [self setDayOfWeekFont:[UIFont fontWithName:@"ClanOffcPro-NarrNews" size:12.f]];
     [self setDayOfWeekTextColor:UIColorFromRGB(0x999999)];
     [self setDayOfWeekBottomColor:UIColorFromRGB(0xCCCFD5) topColor:[UIColor whiteColor]];
-
-    [self setDateFont:[UIFont fontWithName:@"ClanOffcPro-NarrMedium" size:16.f]]; // [UIFont boldSystemFontOfSize:16.0f]];
+    [self setDateFont:[UIFont fontWithName:@"ClanOffcPro-NarrMedium" size:16.f]];
     [self setDateBorderColor:UIColorFromRGB(0xDAE1E6)];
 }
 
